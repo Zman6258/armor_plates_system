@@ -479,6 +479,15 @@ _category = [_header, LLSTRING(subCategoryGeneral)];
 ] call CBA_fnc_addSetting;
 
 [
+    QGVAR(commEnable),
+    "CHECKBOX",
+    [LLSTRING(commEnable), LLSTRING(commEnable_desc)],
+    _category,
+    false,
+    true
+] call CBA_fnc_addSetting;
+
+[
     QGVAR(bleedoutTime),
     "SLIDER",
     [LLSTRING(bleedoutTime), LLSTRING(bleedoutTime_desc)],
