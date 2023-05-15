@@ -40,4 +40,13 @@ class CfgVehicles {
         function = QFUNC(moduleHeal);
         icon = "\A3\ui_f\data\Map\VehicleIcons\pictureHeal_ca.paa";
     };
+
+    class Camping_base_F;
+    class Land_MedicalTent_01_base_F : Camping_base_F {
+        class EventHandlers {
+            class CBA_Extended_EventHandlers {
+                init = "call cba_xeh_fnc_init";
+            }
+        };
+    };
 };
