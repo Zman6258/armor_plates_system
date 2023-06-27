@@ -224,6 +224,14 @@ if (GVAR(aceMedicalLoaded)) then {
             }, _unit, 3] call CBA_fnc_waitAndExecute;
         };
     }] call CBA_fnc_addEventHandler;
+
+    addMissionEventHandler ["ControlsShifted", {
+        params ["", "", "_vehicle", "_copilotEnabled", "_controlsUnlocked"];
+        if (_copilotEnabled) then { 
+            if !(_controlsUnlocked) exitWith {_vehicle setVariable [QGVAR(controlsUnlocked),nil];};
+            _vehicle setVariable [QGVAR(controlsUnlocked),true];
+        };
+    }];
 };
 
 if !(hasInterface) exitWith {
