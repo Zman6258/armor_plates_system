@@ -1097,19 +1097,19 @@
             <English>%1 use(s) remaining</English>
         </Key>
         <Key ID="STR_diw_armor_plates_main_useInjector">
-            <English>Use Injector on %1</English>
+            <English>Use auto-injector on %1</English>
         </Key>
         <Key ID="STR_diw_armor_plates_main_useInjectorSelf">
             <English>Self</English>
         </Key>
         <Key ID="STR_diw_armor_plates_main_useInjectorAce">
-            <English>Use Injector</English>
+            <English>Use auto-injector</English>
         </Key>
         <Key ID="STR_diw_armor_plates_main_injectorComnfirm_text">
-            <English>Use injector on %1?</English>
+            <English>Use auto-injector on %1?</English>
         </Key>
         <Key ID="STR_diw_armor_plates_main_injectorComnfirm">
-            <English>Show Injector Confirm dialog</English>
+            <English>Show Auto-Injector Confirm dialog</English>
         </Key>
         <Key ID="STR_diw_armor_plates_main_injectorComnfirm_desc">
             <English>Shows a confirmation dialog when using an injector.</English>
