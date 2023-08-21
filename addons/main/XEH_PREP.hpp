@@ -22,6 +22,7 @@ if (GVAR(aceMedicalLoaded)) then {
 } else {
     PREP(addActionsToUnit);
     PREP(addPlayerHoldActions);
+    PREP(addStructureHeal);
     PREP(aiMoveAndHealUnit);
     PREP(canRevive);
     PREP(canHold);
